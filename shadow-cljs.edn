@@ -1,0 +1,11 @@
+;; shadow-cljs configuration
+{:source-paths ["src/dev" "src/main" "src/test"]
+ :dependencies [[org.clojure/core.async "1.1.587"]
+                [com.cognitect/transit-cljs "0.8.256"]]
+ :builds
+ {:test
+  {:target    :browser-test
+   :test-dir  "resources/public/js/test"
+   :ns-regexp "-test$"
+   :devtools {:http-port 8021
+              :http-root "resources/public/js/test"}}}}
