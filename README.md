@@ -12,8 +12,8 @@ ClojureScript binding for [localForage](https://github.com/localForage/localFora
 
 (def db (storage/create-db {:name "local-forage.core-test"}))
 (go
-  (<p! (core/set! @db "foo" "bar"))
-  (<p! (core/get! @db "foo")))
+  (<p! (core/set! db "foo" "bar"))
+  (<p! (core/get db "foo")))
 ```
 
 ## License
