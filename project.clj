@@ -5,5 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojurescript "1.10.748" :scope "provided"]
                  [org.clojure/core.async "1.1.587"]
-                 [com.cognitect/transit-cljs "0.8.256"]]
+                 [com.cognitect/transit-cljs "0.8.264"]]
   :repl-options {:init-ns local-forage.core})
