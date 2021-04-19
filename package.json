@@ -23,6 +23,6 @@
     "shadow-cljs": "2.12.3"
   },
   "dependencies": {
-    "localforage": "^1.7.3"
+    "localforage": "^1.9.0"
   }
 }
