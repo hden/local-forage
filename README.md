@@ -2,6 +2,11 @@
 
 ClojureScript binding for [localForage](https://github.com/localForage/localForage)
 
+
+## Install
+
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.hden/local-forage.svg)]
+
 ## Usage
 
 ```clojure
