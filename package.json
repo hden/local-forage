@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/hden/local-forage#readme",
   "devDependencies": {
-    "shadow-cljs": "2.28.5"
+    "shadow-cljs": "2.28.6"
   },
   "dependencies": {
     "localforage": "^1.7.3"
