@@ -1,4 +1,4 @@
 {:paths ["src/dev" "src/main" "src/test"]
  :deps {org.clojure/core.async {:mvn/version "1.9.865"}
         com.cognitect/transit-cljs {:mvn/version "0.8.280"}}
- :aliases {:cljs {:extra-deps {thheller/shadow-cljs {:mvn/version "3.3.8"}}}}}
+ :aliases {:cljs {:extra-deps {thheller/shadow-cljs {:mvn/version "3.4.0"}}}}}
